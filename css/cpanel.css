@@ -1,0 +1,603 @@
+/*----------------------------SISTEMA-------------------------*/
+#iniciarsesion{
+    width: 100%;
+    float: left;
+    height: auto;
+    padding: 5%;
+    background-image: url(../img/fondo-header.jpg);
+    background-attachment: fixed;
+    background-size: cover;}
+#iniciarsesion form{
+    width: 50%;
+    margin: 10% 25%;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    border-radius: 40px;}
+#iniciarsesion form input{
+    width: 90%;
+    float: left;
+    height: 50px;
+    margin: 1% 5%;}
+#iniciarsesion form button{
+    width: 40%;
+    float: left;
+    height: 30px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    margin: 1% 30% 4%;
+    border: 0px;
+    transition: .3s;}
+#iniciarsesion form button:hover{
+    letter-spacing: 2px;
+    cursor: pointer;}
+.logo-ingresar{
+    width: 50%;
+    margin: 5% 25% 1%;
+    float: left;}
+.titu-ingresar{
+    font-family: Brandon_light;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;}
+.cpanelerror{
+    width:100%;
+    font-size: 16px;
+    color:#ff0000;
+    font-style: italic;
+    float: left;
+    text-align: center;
+    font-family: Brandon_med;}
+
+
+.navcpanel{
+    height:100px;}
+.user{
+    width: 100%;
+    padding-right: 5px;
+    line-height: 25px;
+    float: left;
+    font-family: Brandon_light;
+    height: 25px;
+    font-size: 14px;
+    background: black;
+    text-align: right;
+    color: white;
+    text-transform: uppercase;}
+.user a{
+    color: white;
+    font-size: 14px;
+    font-family: Brandon_light;
+    text-decoration: none;}
+
+
+#sistema{
+    width: 100%;
+    padding: 10%;
+    float: left;
+    font-family: Roboto;
+    background-image: url(../img/fondo-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.titu-cpanel{
+    width:100%;
+    border-radius: 5px;
+    margin: 3% 0%;
+    padding: 1%;
+    float: left;
+    text-align: center;
+    color:white;
+    background-color: #e6233d;
+    font-family: Brandon_med;
+    font-size: 28px;}
+.btn-sistema{
+    width: 23%;
+    padding: 5% 0%;
+    margin: 4% 1%;
+    border-radius: 20px;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: .3s;}
+.btn-sistema:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.8);}
+.btn-sistema2{
+    font-size: 20px;
+    width:95%;
+    margin: 1% 2.5%;
+    padding: 1% 0%;
+    border-radius: 20px;
+    text-transform: uppercase;
+    float: left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.8);
+    transition: .3s;}
+.btn-sistema2:hover{
+    letter-spacing: 2px;
+    background: rgba(0, 0, 0, 0.382);}
+
+.logo-sistema{
+    width: 30%;
+    margin: 2% 35%;
+    float: left;}
+
+#sistema form{
+    width: 70%;
+    margin: 0% 15%;
+    float: left;
+    background: rgba(255,255,255,0.8);
+    border-radius: 40px;}
+
+#sistema form input, #sistema form select{
+    width: 90%;
+    float: left;
+    height: 50px;
+    margin: 1% 5%;}
+
+#sistema form textarea{
+    width: 90%;
+    float: left;
+    height: 100px;
+    margin: 1% 5%;}
+
+#sistema form button{
+    width: 40%;
+    float: left;
+    height: 30px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    margin: 1% 30% 4%;
+    border: 0px;
+    transition: .3s;}
+
+#sistema form button:hover{
+    letter-spacing: 2px;
+    cursor: pointer;}
+
+#sistema2{
+    width: 100%;
+    padding: 120px 2% 15%;
+    font-family: Roboto;
+    font-size: 12px;
+    margin-bottom: -10%;
+    float: left;
+    background-image: url(../img/fondo-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+#sistema2 table{
+    background: white;
+    text-align: center;}
+.btn-td{
+    width: 30px;
+    margin: 0 auto;}
+.dos{
+    padding: 7px;
+    font-size: 14px;}
+.tres{
+    border-bottom: 2px solid rgb(76, 76, 76);}
+.volversistema{
+    width: 40%;
+    margin: 2% 30%;
+    padding: .5% 0%;
+    text-align: center;
+    background: black;
+    text-decoration: none;
+    color: white;
+    float: left;
+    border-radius: 20px;
+    font-size: 16px;
+    transition:.3s;}
+.volversistema:hover{
+    opacity: .7;
+    letter-spacing: 2px;
+    cursor: pointer;}
+
+.usuariostabla{
+    width: 100%;
+    background: white;
+    float: left;}
+.usuariostabla td{
+    height: 30px;
+    border-bottom: 1px solid rgb(102, 102, 102);}
+
+
+.tablaventas{
+    width: 100%;
+    font-size: 13px;}
+
+.tablaventas td{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid rgb(102, 102, 102);}
+
+#sistema3{
+    width: 100%;
+    padding: 10% 2% 15%;
+    font-family: Roboto;
+    font-size: 12px;
+    margin-bottom: -10%;
+    float: left;
+    background-image: url(../img/fondo-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+#sistema3 table{
+    background: white;
+    text-align: center;}
+
+.btn-editar{
+    width: 20px;
+    margin-top: 7px;}
+.btn-editar:hover, .btn-td:hover{
+    background: black;
+    cursor: pointer;}
+#envioabierto, #detalleabierto, #estadopagoabierto, #estadoenvioabierto{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    padding: 5% 15%;
+    font-family: sans-serif;
+    position: fixed;
+    z-index: 200000000000;
+    text-align: center;
+    max-width: 1920px; 
+    float: left;}
+#cerrar{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    font-family: Brandon-Med;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    background: #F4F1ED;
+    margin-left: -20px;
+    margin-top: -20px;
+    transition: .3s;}
+#cerrar:hover{  opacity: .5;}
+#datosenvio{
+    width: 100%;
+    background: white;
+    text-align: left;
+    padding: 2%;
+    height: auto;}
+#datosenvio select{
+    width:80%;
+    height: 40px;
+    margin: 1% 10%;}
+
+.titupop{
+    width:100%;
+    background: #e6233d;
+    color:white;
+    padding: 1%;
+    text-align: center;}
+.tablapop{
+    width:100%;
+    padding:1%;
+    line-height: 30px;}
+.lineapop{
+    border-bottom: 1px solid black;
+}
+
+.btn-enviardatos{
+    border:0;
+    background: rgba(0,0,0,0.0);}
+.btn-enviardatos2{
+    width: 50%;
+    margin:2% 25%;
+    background: black;
+    color:white;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: .3s;
+    cursor: pointer;
+    padding: 1%;}
+.btn-enviardatos2:hover{
+    opacity: .5;}
+.gracias{
+    width: 100%;
+    margin-bottom: -10%;
+    float: left;
+    color:white;
+    text-align: center;
+    font-family: Roboto;
+    background-image: url(../img/fondo-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt-gracias{
+    width: 60%;
+    margin: 8% 20%;
+    float: left;
+    background: rgba(0,0,0,0.8);
+    border-radius: 30px;
+    padding: 5% 2%;
+}
+h3{
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: 300;
+}
+.btn-tuscompras{
+    width: 70%;
+    margin: 2% 15%;
+    border-radius: 15px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none;
+}
+.btn-tuscompras:hover{
+    opacity: .5;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+@media (max-width:900px){ 
+    h3{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:600px){ 
+    .txt-gracias{
+        width: 80%;
+        margin: 8% 10%;
+        padding: 5%;
+    }
+}
+
+.formu-editar{
+    width: 100%;
+    float: left;}
+.formu-editar label{
+    width:100%;
+    float: left;
+    text-align: center;}
+
+.formu-editar button{
+    width:100%;
+    float: left;
+    text-align: center;}
+
+#imagen,#imagendos,#imagentres,#imagencuatro{
+    width: 100%;}
+.custom-input-file {
+    float: left;
+    border:1px solid black;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    width: 40%;
+    margin: 1% 5%;
+    padding-top: 20px;}
+.titu-fotos{
+      width: 100%;
+      float: left;
+      background: black;
+      color: white;
+      padding: 1%;}
+.labelul{
+    width: 90%;
+    margin: 1% 5%;
+    text-align: left;
+    float: left;}
+
+
+#activardesactivar{
+    width: 100%;
+    float: left;
+    height: auto;
+    padding: 5%;
+    background-image: url(../img/fondo-header.jpg);
+    background-attachment: fixed;
+    background-size: cover;}
+#activardesactivar form{
+    width: 70%;
+    margin: 5% 15%;
+    float: left;
+    background: rgba(255,255,255,0.9);
+    border-radius: 40px;}
+.titulabel2{
+    width: 90%;
+    padding-bottom: 20px;
+    margin: 4% 5% 1%;
+    text-align: center;
+    letter-spacing: 1px;
+    float: left;
+	font-family:US-BLAAK-REGULAR;
+    font-weight: bold;
+    font-size: 24px;}
+.acti4{
+    font-size: 16px;
+	font-family:Brandon-Light;
+    margin-top: 10px;}
+.acti4 b{
+    text-transform: uppercase;
+	font-family:Brandon-Bold;
+    color:#e6233d;}
+
+.titulabel{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    float: left;
+	font-family:US-BLAAK-REGULAR;
+    font-weight: bold;
+    font-size: 20px;}
+.txtacti{
+    width:80%;
+    margin: 1% 10%;
+    height: 150px;
+    max-width: 80%;
+    min-width: 80%;
+    max-height: 150px;
+    min-height: 150px;}
+
+.btn-esq{
+    width: 40%;
+    float: left;
+    height: 30px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    margin: 1% 30% 4%;
+    border: 0px;
+    transition: .3s;}
+.btn-esq:hover{
+    opacity: .7;
+    cursor: pointer;
+    letter-spacing: 2px;}
+#conteacti{
+    width:80%;
+    float: left;
+    margin: 0% 10%;}
+.acti{
+    width: 48%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    background: #2c2c2c;
+    color:white;
+    font-family: roboto;
+    transition: .3s;}
+.activa{
+    background: #e6233d;}
+.acti1:hover{
+    font-weight: bold;
+    cursor: pointer;}
+.acti2:hover:hover{
+    font-weight: bold;
+    cursor: pointer;}
+
+
+
+.logo-desactivado{
+    width: 30%;
+    float: left;
+    margin: 8% 35% 4%;}
+.txt-desactivado{
+	font-family:US-BLAAK-REGULAR; 
+    width: 60%;
+    margin: 0% 20% 5%;
+    float: left;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;}
+.filtro-persona{
+    width:100%;
+    float: left;}
+.btn-persona{
+    width: 48%;
+    margin: 0% 1% 2%;
+    padding: .5%;
+    text-align: center;
+    float: left;
+    border-radius: 10px;
+    background: #6c6c6c;
+    border: 2px solid #6c6c6c;
+    text-decoration: none;
+    color: white;
+    transition:.3s;
+    font-size: 18px;}
+.activo{
+    background: #e6233d;
+    border: 2px solid #aaaaaa;}
+.btn-persona:hover{
+    opacity: .5;
+    letter-spacing: 2px;}
+
+
+#sistema form .btn-editarpro{
+    width:50%;
+    margin:2% 25% 5%;
+    float: left;
+    background: #e6233d;}
+
+.titu-editar{
+    width:100%;
+    font-size: 30px;
+    background: #e6233d;
+    color:white;
+    padding: 1%;
+    margin-bottom: 2%;
+    text-align: center;}
+
+.form-editar{
+    width:50%;
+    margin:2% 25% 5%;
+    float: left;
+    background: #e6233d;
+}
+
+.contenedor{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.629);
+    float: left;
+    font-family: sans-serif;}
+.detalle{
+    width:50%;
+    margin:5% 25%;
+    float: left;
+    background: white;
+    text-align: center;}
+.detalle b{
+    width:100%;
+    height: 40px;
+    float: left;
+    background: red;
+    line-height: 40px;
+    color:white;}
+.detalle table{
+    width:100%;
+    float: left;
+    text-align: center;}
+.td-detalle{
+    background-color: black;
+    color:white;
+    font-size: 16px;}
+.cerrar{
+    width: 50px;
+    height: 50px;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+    color: #F4F1ED;
+    background-color: black;
+    margin-top: 25px;
+    transition: .3s;}
+.cerrar:hover{  
+    opacity: .5;}
+.detalle select{
+    width:80%;
+    height: 40px;
+    margin: 1% 10%;}

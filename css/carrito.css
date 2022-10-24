@@ -1,0 +1,395 @@
+/*-------------------------------------------CARRITO*/
+.carrito{
+    width: 100%;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 8% 5%;}
+.listaproductos{
+    width: 100%;
+    float: left;}
+.listaproductos table{
+    width: 100%;
+    text-align: center;
+    float: left;}
+.listaproductos table td{
+    border-bottom: 0px;}
+.titu-td{
+    background: #d3d3d3;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding:.5% 0%;
+    font-family: Roboto;
+    text-align: center;}
+
+
+.sumaresta{
+    width: 100%;
+    height: 40px;
+    float: left;
+    background: white;
+    cursor: pointer;
+    border: .5px solid #c6c6c6;
+    transition: .3s;}
+.sumaresta:hover{
+    background: grey;
+    color: white;}
+.cantidadresta{
+    width: 25%;
+    float: left;
+    height: 40px;
+    text-align: center;}
+.cantidadcarrito{
+    width: 50%;
+    float: left;
+    height: 40px;
+    border: .5px solid #c6c6c6;
+    line-height: 40px;
+    text-align: center;}
+.cantidadsuma{
+    width: 25%;
+    float: right;
+    height: 40px;
+    text-align: center;}
+
+.cnt-imgcarrito{
+    width: 110px;
+    padding: 10px;}
+.img-carrito{width: 100%;}
+.btn-eliminar{width: 30px;}
+
+
+.btn-finalizar{
+    width: 30%;
+    float: right;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    margin:1%;
+    transition: .3s;
+    border: 0;}
+.btn-continuar{
+    width: 30%;
+    float: right;
+    background: rgb(124, 122, 122);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+    margin:1%;
+    height: 40px;
+    border: 0;
+    transition: .3s;}
+.btn-continuar:hover, .btn-finalizar:hover{
+    opacity: .6;
+    cursor: pointer;
+    letter-spacing: 2px;}
+
+/*---------------------------------------------FINALIZAR COMPRA---*/
+#formulario{
+    width: 78%;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 100px 1% 0% 2%;}
+.formulario2{
+    width: 100%;
+    padding: 0% 10% 2%;
+    float: left;}
+h1{ 
+    font-family: sans-serif;
+    font-size: 26px;}
+.ordennom{
+    width: 50%;
+    margin: 2% 0%;
+    padding: 1%;
+    float: left;}
+.ordennom input, .ordennom label{
+    width: 100%;
+    float: left;}
+.ordennom input{
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;}
+h22{
+    color: red;
+    margin-left: 3px;}
+
+#notas{
+    width: 100%;
+    float: left;
+    height: 100px;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+    margin: 15px 0px;
+    padding: 10px;}
+
+.filatabla{
+    padding: 1%;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #d0d0d0;}
+.totaltabla{
+    font-weight: bold;
+    padding: 1%;
+    width: 100%;
+    float: left;}
+.btn-finalizar{
+    width: 30%;
+    float: right;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    margin:1%;
+    transition: .3s;
+    border: 0;}
+.btn-continuar{
+    width: 30%;
+    float: right;
+    background: rgb(124, 122, 122);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+    margin:1%;
+    height: 40px;
+    border: 0;
+    transition: .3s;}
+.btn-continuar:hover, .btn-finalizar:hover{
+    opacity: .6;
+    cursor: pointer;
+    letter-spacing: 2px;}
+
+.datoscliente{
+    width: 98%;
+    border-radius: 10px;
+    border: 1px solid #d0d0d0;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    font-family: sans-serif;}
+.datoscliente table{
+    width: 100%;}
+
+.td-filatabla{
+    width:40%; 
+    float:left;}
+.td-filatabla2{
+    width:60%; 
+    float:left;}
+.conte-carrito{
+    width: 20%;
+    float: right;
+    background: rgb(233, 233, 233);
+    font-family: sans-serif;
+    padding:1%;
+    border-radius: 5px;
+    margin: 110px 1% 0%;}
+.titu-contecarri{
+    width: 100%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    font-size: 18px;}
+.conte-produ{
+    width: 100%;
+    float: left;}
+.img-contecarri{
+    width: 30%;
+    margin: 2.5% 0% 2.5% 2.5%;
+    float: left;}
+.conte-canti{
+    float: left;
+    margin:-1% 0% 0% -5%;
+    width:25px;
+    height: 25px;
+    border-radius: 12.5px;
+    background: #969696;
+    text-align: center;
+    line-height: 25px;
+    color: white;}
+.conte-nombre{
+    width: 60%;
+    float: left;
+    margin-top: 45px;}
+.conte-precio{
+    width: 60%;
+    float: left;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-size: 14px;}
+.conte-total{
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 2%;
+    float: left;
+    line-height: 25px;
+    margin-top: 20px;}
+.btn-contecarri{
+    width: 95%;
+    margin-top: 6%;
+    float: left;
+    background: #afafaf;
+    border-radius: 5px;
+    text-align: center;
+    color:white;
+    padding: 1% 0%;
+    transition: .3s;
+    text-decoration: none;}
+.btn-contecarri:hover{
+    background: #313131;}
+
+
+
+.formularioenvio{
+    width: 100%;
+    float: left;
+    border-radius: 20px;
+    margin-top: 1%;
+    padding: 0% 5%;}
+#envio, #coordi, #transferencia, #mercadopago{
+    width:5%;
+    float: left;
+    margin-top:20px;}
+#labelenvio, #labeltransferencia{
+    cursor: pointer;
+    width:45%;
+    border-right: 2px solid black;
+    float: left;
+    padding: 20px;}
+#labelcoordi, #labelmercadopago{
+    width:45%;
+    cursor: pointer;
+    float: left;
+    padding: 20px;}
+.quiereenvio, .conte-transferencia, .conte-mercadopago{
+    width: 100%;
+    float: left;
+    border-top: 2px solid black;
+    padding-top: 1%;
+    display: none;}
+.quieroenvioselect{
+    width: 98%;
+    margin:1% 1% 0%;
+    float: left;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: sans-serif;}
+#envio:checked ~ .quiereenvio,
+#transferencia:checked ~ #conte-transferencia,
+#mercadopago:checked ~ #conte-mercadopago{
+    display: block;}
+#envio:checked ~ #labelenvio, 
+#coordi:checked ~ #labelcoordi, 
+#transferencia:checked ~ #labeltransferencia,
+#mercadopago:checked ~ #labelmercadopago{
+    font-weight: bold;}
+
+#conte-mercadopago{
+    height: 100px;
+}
+#conte-mp{
+    width:100px;
+    float: left;
+    margin-left:55%;
+    margin-top:-70px;
+}
+.g-recaptcha{
+    margin-left:33%;
+    float: left;
+}
+
+@media (max-width:900px){
+    .btn-continuar, .btn-finalizar{
+        width: 48%;
+    }
+}
+@media (max-width:768px){
+    .finalizar{
+        padding: 2% .5%;}
+    .datoscliente, .enviaraotro{
+        padding: 2%;}
+    .form-finalizar{
+        width: 90%;
+        margin: 0% 5%;
+        float: left;
+        font-family: sans-serif;}
+    .mediosdepago{
+        padding: 2% 0%;}
+    .td-filatabla{
+        width:20%; }
+    .td-filatabla2{
+        width:80%; }
+}
+@media (max-width:700px){
+    
+    .listaproductos table{
+        font-size: 10px;
+    }
+}
+@media (max-width:500px){
+    .btn-continuar, .btn-finalizar{font-size: 10px;}
+    .detalleenvio{width: 85%;}
+    .td-filatabla{
+        width:25%; }
+    .td-filatabla2{
+        width:75%; }
+}
+
+
+@media (max-width:400px){ 
+    #resultadocalculadora{
+        width: 130%;
+        margin-top: 10%;
+        margin-left: -32%;}
+    .cantidadresta, .cantidadsuma{
+        width: 30%;}
+    .cantidadcarrito{
+        width: 40%;}
+    
+}
+@media (max-width:350px){ 
+    .user{    
+        width: 110%;
+        margin-left: -5%;
+        padding-right: 1%;}
+    #menu{
+        margin-top: 25px;}
+    #carrito{
+        width: 50px;
+        line-height: 90px;}
+    .btn-carrito{
+        width: 20px;
+        margin-top: 35px;}
+    .apagar2{
+        display: none;}
+    #veropciones{
+        width: 100%;}
+    #formuenvio select, #formuenvio input{
+        margin-top:5px;}
+}
+
+

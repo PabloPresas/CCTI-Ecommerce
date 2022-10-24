@@ -1,0 +1,510 @@
+@import url("carrito.css");
+@import url("cpanel.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 1920px; 
+    min-width: 360px;} 
+
+@font-face{
+    font-family: Brandon_light;
+    src: url(../fonts/Brandon_light.otf);}
+@font-face {
+    font-family: Brandon_med;
+    src: url(../fonts/Brandon_med.otf);}
+
+/*--------------------------------------------------------botonera*/
+nav{
+    width: 100%;
+    height: 80px;
+    max-width: 1920px;
+    float: left;
+    background: #edf2f4;
+    z-index: 100;
+    position: fixed;
+	line-height: 80px;}
+nav label, nav input{
+    display: none;}
+.logo-nav{
+    float: left;
+    width: auto;
+    height: 60px;
+    margin: 10px;}
+#menu{
+    width: 30%;
+    height: auto;
+    position: relative;
+    transition: .3s;
+    float: right;}
+.botones{
+    width: 33%;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font-family:Brandon_med;
+    font-weight: 600;
+    text-transform: uppercase;}
+#menu ul a{
+    color: #2c2c2c;}
+#menu ul li:hover{
+    color: white;
+    background: #d5cbb9;}
+#carrito{
+    width: 5%;
+    height: 100%;
+    float: right;
+    font-family: Brandon_med;
+    color:black;
+    text-decoration: none;}
+.btn-carrito{
+    width: 25px;
+    float: left;
+    margin-top:28px;}
+.canti{
+    float: left;
+    width: 40%;
+    margin-top:3px;
+    margin-left: 4px;}
+#btn-menu2{        
+    width: 30px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 5px;}
+.linea1{
+    width: 30px;
+    height: 3px;
+    margin-top: 5px;
+    float: left;
+    transition: .3s;
+    background: #2c2c2c;
+    opacity: .8;}
+.linea2{
+    width: 30px;
+    height: 3px;
+    margin-top: 5px;
+    float: left;
+    transition: .3s;
+    background: #2c2c2c;
+    opacity: .8;}
+
+
+
+
+/*----------------------------------------------------------------HEADER*/
+header{
+    width:100%;
+    height: auto;
+    background-image: url(../img/fondo-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    float: left;}
+.btn-header{
+    width:40%;
+    margin: 20% 30% 10%;
+    float: left;
+    background: #a8a8a8;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: Brandon_med;
+    padding: 3%;
+    border-radius: 50px;
+    transition: .3s;
+}
+.btn-header:hover{
+    letter-spacing: 2px;
+    background-color: #2c2c2c;
+}
+.btn-produ-conte{
+    width:100%;
+    float: left;
+}
+.btn-produ-header2{
+    width: 28%;
+    float: left;
+    margin: 2.5%;
+    background: #d5cbb9;
+    text-align: center;
+    font-family: Brandon_med;
+    padding: 5% 0%;
+    font-size: 24px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    animation-name: ani-header-volver;
+    animation-duration: 1s;}
+.btn-produ-header{
+    text-decoration: none;
+    color:black;}
+.btn-produ-header2:hover{
+    animation-name: ani-header;
+    animation-duration: 1s;
+    background: #2c2c2c;}
+.btn-produ-header2:hover .btn-produ-header{
+    color:white;}
+
+@keyframes ani-header{
+    0%{transform:rotateY(0deg);}
+    50%{transform:rotateY(90deg);}
+    100%{transform:rotateY(0deg);}
+}
+@keyframes ani-header-volver{
+    0%{transform:rotateY(0deg);}
+    50%{transform:rotateY(-90deg);}
+    100%{transform:rotateY(0deg);}
+}
+
+
+
+/*-------------------------------------------------------home destacados*/
+#destacados{
+    width:100%;
+    padding: 10% 5%;
+    float: left;}
+.titu-destacados{
+    width:100%;
+    background: #d5cbb9;
+    text-align: center;
+    font-family: Brandon_med;
+    border-radius: 20px;
+    padding: .5%;}
+.destacado{
+    width: 28%;
+    float: left;
+    margin: 2.5%;
+    text-align: center;
+    color:black;}
+.img-desta{
+    width:100%;}
+.titu-desta{
+    width:100%;
+    font-family: Brandon_med;
+    font-size: 16px;}
+.precio-desta{
+    width:100%;
+    font-family: Brandon_light;}
+
+
+
+
+
+/*---------------------------------------------------------------footer*/
+footer{
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #F4F1ED;
+    text-align: center;}
+footer a{
+    text-decoration: none;}
+.logo-footer{
+    width: 15%;
+    margin: 5% 42.5% 0%;}
+.iconos-footer{
+    width: 30px;
+    margin: 2% 1% 1%;} 
+.txt-footer{
+    font-family:Brandon_med;
+    font-size: 16px;
+    color: #a8a8a8;
+    margin: 1% 0%;}
+
+
+/*-----------------------------------------------------------TIENDA*/
+#tienda{
+    width:100%;
+    float: left;
+    padding: 10% 5% 5%;}
+#info-tienda{
+    width:100%;
+    padding: 0% 3%;
+    float: left;}
+.datoinfo{
+    width:50%;
+    float: left;}
+
+h1{
+    width: 100%;
+    float: left;
+    font-size: 32px;
+    font-family: Brandon_med;}
+.mostrando{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    font-family: Roboto;}
+.select-filtro{
+    width:50%;
+    float: right;
+    margin-top: 5%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: sans-serif;}
+
+#productos-tienda{
+    width:100%;
+    float: left;}
+.item-produ{
+    width:28%;
+    margin:2.5%;
+    text-align: center;
+    text-decoration: none;
+    float: left;}
+.img-tienda{
+    width:100%;}
+.titu-producto{
+    font-family:Brandon_med;
+    font-size: 22px;
+    margin-bottom: 2%;
+    transition: .3s;
+    color: #2c2c2c;}
+.precio-producto{
+	font-family:sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4d4d4d;
+    font-size: 14px;}
+
+/*---------------------------------------PRODUCTO*/
+main{
+    width:100%;
+    padding: 10%;}
+#foto-producto{
+    width:50%;
+    padding:2%;
+    float: left;}
+#foto-producto input{
+    display: none;}
+.fotogrande{
+    padding: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 1s;
+    position: relative;}
+.img-muestra{
+    width: 16%;
+    float: left;
+    margin: 1.5%;
+    position: relative;
+    cursor: pointer;}
+.flecha{
+    width:30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+    color:black;
+	font-family:Roboto;
+    transform: scaleY(1.5);
+    line-height: 35px;
+    border:0;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 48%;}
+.flecha:hover{
+    opacity: .5;}
+#izq{ 
+    float: left;
+    margin-left: 20px;}
+#dere{ 
+    float: right;
+    margin-right: 20px;}
+
+#info-producto{
+    width:50%;
+    padding:2%;
+    float: left;
+}
+
+
+#info-producto{
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 2%;}
+.nombre-produ{
+    font-size: 35px;
+    font-weight: 500;
+    font-family:Roboto;
+    margin-bottom: 20px;}
+.descripcion-produ{
+    font-size: 15px;
+    line-height: 22px;
+    color: #6c6c6c;
+    font-weight: 400;
+    font-family:Roboto;
+    margin-bottom: 20px;}
+.precio-produ{
+    width: 100%;
+    float: left;
+    margin: 0% 0% 2%;
+    font-size: 16px;
+    color: #6c6c6c;
+    font-weight: 400;
+    font-family:Roboto;}
+.agregarcarrito{
+    width: 100%;
+    float: left;}
+.agregarcarrito input{
+    width: 50px;
+    float: left;
+    height: 30px;
+    border: 1px solid rgb(93, 93, 93);
+    font-size: 14px;
+    margin-bottom: 2%;
+    line-height: 20px;
+    font-family: sans-serif;}
+    
+.btn-agregar{
+    width: 50%;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-weight: 500;
+    font-family:Roboto;
+    font-size: 18px;
+    float: left;
+    margin-left: 50%;
+    border: 0;
+    transition: .3s;}
+.btn-agregar:hover{
+    background: black;
+    letter-spacing: 0px;
+    color:white;
+    cursor: pointer;}
+
+
+
+@media (max-width:1080px){
+    .item-produ{
+        width:45%;}
+}
+
+@media (max-width:768px){
+    #menu{
+        width: 50%;
+        height: auto;
+        display: none;
+        margin-top: 80px;
+        margin-right: -100%;}
+    #menu ul li{
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-size: 20px;
+        border-bottom: 2px solid #F4F1ED; 
+        background: #2c2c2c;
+        color: #F4F1ED;}    
+    nav label{
+        float: right;
+        height: 100%;
+        display: block;
+        width: 60px;
+        padding: 4% 0%;}
+    #btn-menu:checked ~ #menu{
+        display: block;
+        margin-right: -22%;}
+    #btn-menu:checked ~ label .apagar{
+        display: none;}
+    #btn-menu:checked ~ label .linea1{
+        transform: rotate(45deg);
+        margin-top: 10px;
+        float: left;}
+    #btn-menu:checked ~ label .linea2{
+        transform: rotate(-45deg);
+        float: left;
+        margin-top: -3px;}
+
+    .logo-footer{
+        width: 15%;
+        margin: 5% 42.5% 2%;}
+    #tienda{
+        padding: 100px 5% 5%;}
+    .datoinfo{
+        width:100%;
+        text-align: center;}
+    .select-filtro{
+        width:100%;
+        margin-bottom: 2%;}
+}
+
+@media (max-width:500px){
+    .item-produ{
+        width:90%;}
+    .logo-footer{
+        width: 20%;
+        margin: 5% 40% 2%;
+    }
+    .txt-footer{
+        font-size: 12px;}
+    
+}
+
+
+/*----------------------------CONTACTO*/
+#contacto{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 10% 25% 0%;}
+#contacto form{
+    width: 90%;
+    margin: 1% 5%;
+    float: left;}
+#contacto form input{
+    width: 100%;
+    font-family: Brandon_light;
+    font-size: 14px;
+    height: 60px;
+    background: #f4f4f4;
+    border: 0;
+    float: left;
+    margin: 2% 0%;
+    padding: 2%;}
+#contacto form textarea{
+    font-size: 14px;
+    margin: 2% 0%;
+    padding: 2%;
+    width: 100%;
+    height: 150px;
+    font-family: Brandon_light;
+    max-width: 100%;
+    background: #f4f4f4;
+    border: 0;
+    float: left;}
+#contacto form #btn{
+    cursor: pointer;
+    letter-spacing: 3px;
+    float: left;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    margin: 2% 0%;
+    border: 0;
+    background: #2c2c2c;
+    color: white;
+    font-family: Brandon_light;
+    transition: .3s;}
+#contacto form #btn:hover{
+    background: grey;}
+.falta{
+    width:100%;
+    height: auto;
+    color:red;
+    font-style: italic;
+    font-family:sans-serif;
+    font-size:12px;}
